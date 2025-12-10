@@ -18,12 +18,6 @@ def get_main_menu_keyboard(bot_username: str) -> types.ReplyMarkupInlineKeyboard
                 type=types.InlineKeyboardButtonTypeUrl(
                     url=f"https://t.me/{bot_username}?startgroup=true"
                 )
-            ),
-            types.InlineKeyboardButton(
-                text="📂 GitHub",
-                type=types.InlineKeyboardButtonTypeUrl(
-                    url="https://github.com/AshokShau/SpTubeBot"
-                )
             )
         ],
         [
